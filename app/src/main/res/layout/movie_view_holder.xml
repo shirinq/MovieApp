@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:layout_margin="2dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/movie_image"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="25dp"
+        android:layout_height="70dp"/>
+    <TextView
+        tools:text="1. The Shawshank Redemption"
+        android:id="@+id/movie_title"
+        android:layout_gravity="center"
+        android:layout_marginStart="9dp"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        tools:text="2.5"
+        android:id="@+id/movie_rate"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="6dp"
+        android:src="@drawable/ic_action_star" />
+    <ImageButton
+        android:id="@+id/do_favorite"
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="2dp"
+        android:layout_gravity="bottom"
+        android:src="@drawable/ic_action_faivorite_grey"/>
+</LinearLayout>
